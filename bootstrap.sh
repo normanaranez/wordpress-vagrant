@@ -22,6 +22,8 @@ sudo apt-get -y install php7.0-mysql
 sudo apt-get -y install curl
 sudo apt-get -y install php7.0-curl
 sudo apt-get -y install php7.0-gd
+sudo apt-get -y install php7.0-mbstring
+sudo apt-get -y install php7.0-mod
 
 sudo cp /vagrant/setup/000-default.conf /etc/apache2/sites-available/
 sudo cp /vagrant/setup/php.ini /etc/php/7.0/fpm/php.ini
